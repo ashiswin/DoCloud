@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="appStyle" parent="@style/Theme.AppCompat.Light">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:buttonStyle">@style/buttonStyle</item>
+        <item name="android:windowBackground">@drawable/background</item>
+        <item name="android:expandableListViewStyle">@style/expandableListViewStyle</item>
+        <item name="android:textViewStyle">@style/textViewStyle</item>
+        <item name="android:editTextStyle">@style/editTextStyle</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:exitFadeDuration">80</item>
+
+        <item name="actionBarStyle">@style/actionBarStyle</item>
+        <item name="android:actionBarStyle">@style/actionBarStyle</item>
+
+        <item name="actionBarTabStyle">@style/actionBarTabStyle</item>
+        <item name="android:actionBarTabStyle">@style/actionBarTabStyle</item>
+
+        <item name="actionBarTabTextStyle">@style/actionBarTabTextStyle</item>
+        <item name="android:actionBarTabTextStyle">@style/actionBarTabTextStyle</item>
+
+    </style>
+
+    <style name="anim" parent="@android:Animation">
+        <item name="android:windowEnterAnimation">@anim/fadein</item>
+        <item name="android:windowExitAnimation">@anim/fadeout</item>
+    </style>
+
+    <style name="buttonStyle" parent="@android:style/Widget.Button">
+        <item name="android:background">@drawable/button</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="listViewStyle" parent="@android:style/Widget.ListView">
+        <item name="android:listSelector">@android:color/transparent</item>
+        <item name="android:cacheColorHint">#0000</item>
+        <item name="android:divider">@null</item>
+    </style>
+
+    <style name="expandableListViewStyle" parent="@android:style/Widget.ExpandableListView">
+        <item name="android:cacheColorHint">#0000</item>
+        <item name="android:divider">@null</item>
+    </style>
+
+    <style name="textViewStyle" parent="@android:style/Widget.TextView">
+        <item name="android:padding">10dp</item>
+    </style>
+
+    <style name="editTextStyle" parent="@android:style/Widget.EditText">
+        <item name="android:padding">10dp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <!--<style name="textViewStyle.title">
+        <item name="android:textAppearance">?android:attr/textAppearanceLarge</item>
+        <item name="android:textColor">@color/yellow</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">0.5</item>
+        <item name="android:gravity">center</item>
+    </style>-->
+
+    <style name="actionBarStyle" parent="@style/Widget.AppCompat.ActionBar">
+        <item name="background">@drawable/ab_back</item>
+        <item name="android:background">@drawable/ab_back</item>
+        <item name="backgroundStacked">@color/lightblue</item>
+        <item name="android:backgroundStacked">@color/lightblue</item>
+        <item name="backgroundSplit">@drawable/ab_split_back</item>
+        <item name="android:backgroundSplit">@drawable/ab_split_back</item>
+
+        <item name="android:titleTextStyle">@style/actionBarTitleText</item>
+        <item name="titleTextStyle">@style/actionBarTitleText</item>
+    </style>
+
+    <style name="actionBarTabStyle" parent="@style/Widget.AppCompat.ActionBar.TabView">
+        <item name="android:background">@drawable/tab_indicator_ab_</item>
+    </style>
+
+    <style name="actionBarTitleText" parent="TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="actionBarTabTextStyle" parent="Widget.AppCompat.ActionBar.TabText">
+        <item name="android:textColor">@color/white</item>
+    </style>
+</resources>

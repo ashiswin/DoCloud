@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pre-dex-items>
+
+    <item
+        dex="/Users/ashiswin/Dropbox/devostrum/DoCloud/Source-Clean/DoCloud/build/intermediates/pre-dexed/debug/classes-df4a5757baf3ec6606e2028bd5abc63958ee1f79.jar"
+        jar="/Users/ashiswin/Dropbox/devostrum/DoCloud/Source-Clean/DoCloud/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="d71573c9c5ea98a8db47ad6ff993a63d492b3bfa"/>
+    <item
+        dex="/Users/ashiswin/Dropbox/devostrum/DoCloud/Source-Clean/DoCloud/build/intermediates/pre-dexed/debug/classes-19053f09b16b350b6c3c5621655d7449fa3a759c.jar"
+        jar="/Users/ashiswin/Dropbox/devostrum/DoCloud/Source-Clean/DoCloud/build/intermediates/exploded-aar/com.android.support/support-v4/20.0.0/classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="8694693636ab36910c8100ce527c258ff3ebece0"/>
+    <item
+        dex="/Users/ashiswin/Dropbox/devostrum/DoCloud/Source-Clean/DoCloud/build/intermediates/pre-dexed/debug/support-annotations-20.0.0-bca9cd8c8082330ef7549e0398af852faae531fd.jar"
+        jar="/Applications/Android Studio.app/sdk/extras/android/m2repository/com/android/support/support-annotations/20.0.0/support-annotations-20.0.0.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="9d9013e9ff35fc3756411e62873c363c70c638fa"/>
+    <item
+        dex="/Users/ashiswin/Dropbox/devostrum/DoCloud/Source-Clean/DoCloud/build/intermediates/pre-dexed/debug/classes-0cfad1af205a785d702d72f83add7523e844d520.jar"
+        jar="/Users/ashiswin/Dropbox/devostrum/DoCloud/Source-Clean/DoCloud/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="f21927d22fe31889ecce94dd697a2e75b137e0ef"/>
+    <item
+        dex="/Users/ashiswin/Dropbox/devostrum/DoCloud/Source-Clean/DoCloud/build/intermediates/pre-dexed/debug/gravatar-android-1.0-f981ecd42e1647a222c9beabda64e8d3e7a8406a.jar"
+        jar="/Users/ashiswin/Dropbox/devostrum/DoCloud/Source-Clean/DoCloud/libs/gravatar-android-1.0.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="f1ab6359414baf3c9219d4cd52bd9d5420313d2b"/>
+    <item
+        dex="/Users/ashiswin/Dropbox/devostrum/DoCloud/Source-Clean/DoCloud/build/intermediates/pre-dexed/debug/internal_impl-20.0.0-6698669457ec7de2d454bcceb593bb4e1de1fd05.jar"
+        jar="/Users/ashiswin/Dropbox/devostrum/DoCloud/Source-Clean/DoCloud/build/intermediates/exploded-aar/com.android.support/support-v4/20.0.0/libs/internal_impl-20.0.0.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="e40b3078e3fbd353c9f44da8df25a8fc0078209d"/>
+
+</pre-dex-items>

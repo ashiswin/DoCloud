@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.devostrum.docloud.DoCloudActivity" >
+    <item android:id="@+id/mntHomeNew"
+        android:icon="@drawable/new_item"
+        android:showAsAction="always"
+        android:title="New" />
+
+    <item android:id="@+id/mntHomeSettings"
+        android:showAsAction="never"
+        android:title="Settings" />
+
+    <item android:id="@+id/mntFriends"
+        android:showAsAction="never"
+        android:title="Friends" />
+</menu>

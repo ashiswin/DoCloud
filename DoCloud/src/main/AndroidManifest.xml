@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.devostrum.docloud" >
+
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <permission
+        android:name="com.devostrum.docloud.permission.C2D_MESSAGE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="com.devostrum.docloud.permission.C2D_MESSAGE" />
+
+    <application
+        android:name="com.devostrum.docloud.MainApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/appStyle" >
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <receiver
+            android:name="com.devostrum.docloud.GCMBroadcastReceiver"
+            android:permission="com.google.android.c2dm.permission.SEND" >
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.permission.RECEIVE" />
+
+                <category android:name="com.devostrum.docloud" />
+            </intent-filter>
+        </receiver>
+
+        <service android:name="com.devostrum.docloud.DoCloudService" />
+
+        <activity
+            android:name="com.devostrum.docloud.LoginActivity"
+            android:label="DoCloud" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.devostrum.docloud.RegistrationActivity"
+            android:label="Register" >
+        </activity>
+        <activity
+            android:name="com.devostrum.docloud.ProfileUpdateActivity"
+            android:label="@string/title_activity_profile_update" >
+        </activity>
+        <activity
+            android:name="com.devostrum.docloud.DoCloudActivity"
+            android:label="@string/title_activity_do_cloud" >
+        </activity>
+        <activity
+            android:name="com.devostrum.docloud.NewGroupActivity"
+            android:label="@string/title_activity_new_group"
+            android:parentActivityName="com.devostrum.docloud.DoCloudActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="DoCloudActivity" />
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <color name="darkblue">#006699</color>
+    <color name="deepblue">#4488CC</color>
+    <color name="lightblue">#6CB5D9</color>
+    
+    <color name="tdarkblue">#7f006699</color>
+    <color name="tdeepblue">#7f4488CC</color>
+    <color name="tlightblue">#7f6CB5D9</color>
+    
+    <color name="orange">#ffb24d</color>
+    <color name="torange">#7fffb24d</color>
+    
+    <color name="yellow">#f7dc63</color>
+    <color name="dyellow">#CC9933</color>
+    <color name="tyellow">#7ff7dc63</color>
+    
+    <color name="green">#66cc99</color>
+    <color name="tgreen">#7f66CC99</color>
+    
+    <color name="red">#CC6666</color>
+    <color name="tred">#7fCC6666</color>
+    
+    <color name="black">#112233</color>
+    <color name="tblack">#7f112233</color>
+    
+    <color name="white">#DFEBF7</color>
+    <color name="twhite">#7fDFEBF7</color>
+</resources>

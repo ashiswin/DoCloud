@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="notifications">
+        <item quantity="one">%d todo is due now!</item>
+        <item quantity="other">%d todos are due now!</item>
+    </plurals>
+    <plurals name="notificationContent">
+        <item quantity="one">Come back and check your due todo</item>
+        <item quantity="other">Come back and check your due todos</item>
+    </plurals>
+    <plurals name="characters">
+        <item quantity="one">%d character left</item>
+        <item quantity="other">%d characters left</item>
+    </plurals>
+</resources>
